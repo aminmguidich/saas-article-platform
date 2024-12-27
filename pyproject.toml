@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "saas-article-platform"
+version = "0.1.0"
+description = ""
+authors = ["aminmguidich <medamine.mguidich@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django="^5.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+django-debug-toolbar = "^4.4.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
